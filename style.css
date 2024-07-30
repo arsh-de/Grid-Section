@@ -23,6 +23,7 @@ body {
     background: var(--Light-grayish-blue);
     font-family: var(--Font-family);
     font-size: var(--Font-size);
+
 }
 
 .container {
@@ -105,7 +106,7 @@ img {
 .title {
     color: var(--White);
     font-weight: var(--Fw-500);
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .post:nth-of-type(3)>.title {
@@ -118,7 +119,7 @@ img {
 
 .review {
     opacity: .7;
-    font-size: .7rem;
+    font-size: var(--Font-size);
     color: var(--White);
 }
 
