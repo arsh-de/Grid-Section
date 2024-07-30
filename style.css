@@ -119,6 +119,7 @@ img {
 .review {
     opacity: .7;
     font-size: .7rem;
+    color: var(--White);
 }
 
 .post:nth-of-type(3)>.review {
@@ -131,4 +132,34 @@ img {
     opacity: .7;
 }
 
-@media(max-width:768px) {}
+@media(max-width:768px) {
+    .container {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .post:nth-of-type(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .post:nth-of-type(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .post:nth-of-type(3) {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .post:nth-of-type(4) {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .post:nth-of-type(5) {
+        grid-column: 1;
+        grid-row: 5;
+    }
+}
